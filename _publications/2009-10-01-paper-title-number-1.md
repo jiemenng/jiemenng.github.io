@@ -1,15 +1,24 @@
 ---
 title: "SePanner: Analyzing Semantics of Controller Variables in Industrial Control Systems based on Network Traffic"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/RAID-20/
+excerpt: '> *The 23rd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2020)*<br>***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.'
+<!-- date: 2020-10-01 -->
+venue: 'Online'
+#paperurl: ''
+#citation: ''
 ---
-This paper is about the number 1. The number 2 is left for future work.
+- [Download paper](https://dl.acm.org/doi/10.1145/3627106.3627179)
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+Conference:
+===
+*The 39th Computer Security Applications ConferenceDecember (ACSAC 2023)*
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Authors: 
+===
+***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.
+
+Abstract:    
+===
+Programmable logic controllers (PLCs), the essential components of critical infrastructure, play a crucial role in various industrial manufacturing processes. Recent attack events show that attackers have a strong interest in tampering with the controller variables, such as the device status and internal program logic. A typical attack strategy is that the attackers just send malicious network traffic of industrial control protocols (ICPs) to change the controller variables of PLCs. To defend against this attack, a lot of countermeasures have been proposed to detect anomalies in network traffic based on the semantic analysis.
+However, the proprietary nature of ICPs poses a challenge to extracting the required semantics for evaluating the controller variables. In this paper, we propose a novel framework named SePanner to extract the semantics of controller variables from proprietary ICPs based on network traffic. Specifically, SePanner conducts the multi-state comparison to locate the semantic fields directly, then removes the interfering fields by the single-state comparison and filtering criteria. Our experiments demonstrate that SePanner can precisely extract the semantics of controller variables from proprietary ICPs, providing protection for PLCs while remaining compatible with various proprietary binary protocols.
