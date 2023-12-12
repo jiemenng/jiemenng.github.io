@@ -1,7 +1,7 @@
 ---
 title: "SePanner: Analyzing Semantics of Controller Variables in Industrial Control Systems based on Network Traffic"
 collection: publications
-permalink: /publication/RAID-20/
+permalink: /publication/ACSAC2023/
 excerpt: '> *The 23rd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2020)*<br>***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.'
 <!-- date: 2020-10-01 -->
 venue: 'Online'
