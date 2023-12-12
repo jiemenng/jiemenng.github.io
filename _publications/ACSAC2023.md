@@ -8,7 +8,7 @@ excerpt: '> *The 39th Computer Security Applications ConferenceDecember (ACSAC 2
 
 Conference:
 ===
-*The 39th Computer Security Applications ConferenceDecember (ACSAC 2023)*
+*The 39th Computer Security Applications Conference(ACSAC 2023)*
 
 Authors: 
 ===
