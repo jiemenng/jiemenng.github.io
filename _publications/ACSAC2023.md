@@ -3,7 +3,7 @@ title: "SePanner: Analyzing Semantics of Controller Variables in Industrial Cont
 collection: publications
 permalink: /publication/ACSAC2023/
 excerpt: '> *The 39th Computer Security Applications Conference (ACSAC 2023)**Distinguished Paper Award*<br>***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.'
-<!-- date: 2022-10-01 -->
+<!-- date: 2023-12-08 -->
 venue: 'Online'
 #paperurl: ''
 #citation: ''
