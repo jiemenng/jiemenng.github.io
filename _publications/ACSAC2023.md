@@ -1,25 +1,26 @@
 ---
-title: "SePanner: Analyzing Semantics of Controller Variables in Industrial Control Systems based on Network Traffic"
+title: "Reverse Engineering Physical Semantics of PLC Program Variables Using Control Invariants"
 collection: publications
-permalink: /publication/ACSAC2023/
-excerpt: '> *The 39th Computer Security Applications ConferenceDecember (ACSAC 2023)*<br>***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.'
- <!-- date: 2020-10-01 -->
- venue: 'Online'
- #paperurl: ''
- #citation: ''
- ---
- 
-- [Download paper](https://dl.acm.org/doi/10.1145/3627106.3627179)
+permalink: /publication/SenSys-22/
+excerpt: '> *The 20th ACM Conference on Embedded Networked Sensor Systems (SenSys''22)*<br>***Zeyu Yang**, Liang He, Hua Yu, Chengcheng Zhao, Peng Cheng and Jiming Chen*.'
+<!-- date: 2022-10-01 -->
+venue: 'Online'
+#paperurl: ''
+#citation: ''
+---
+- [Download paper](https://sensys.acm.org/2022/program/)
+
+- [Presentation video]
+<!-- (https://www.youtube.com/watch?v=cWcqw7IljlU) -->
 
 Conference:
 ===
-*The 39th Computer Security Applications Conference(ACSAC 2023)*
+*The 20th ACM Conference on Embedded Networked Sensor Systems (SenSys'22)*  
 
 Authors: 
 ===
-***Jie Meng**, Zeyu Yang, Zhenyong Zhang, Yangyang Geng, Ruilong Deng, Peng Cheng, Jiming Chen, Jianying Zhou*.
+***Zeyu Yang**, Liang He, Hua Yu, Chengcheng Zhao, Peng Cheng and Jiming Chen*.
 
 Abstract:    
 ===
-Programmable logic controllers (PLCs), the essential components of critical infrastructure, play a crucial role in various industrial manufacturing processes. Recent attack events show that attackers have a strong interest in tampering with the controller variables, such as the device status and internal program logic. A typical attack strategy is that the attackers just send malicious network traffic of industrial control protocols (ICPs) to change the controller variables of PLCs. To defend against this attack, a lot of countermeasures have been proposed to detect anomalies in network traffic based on the semantic analysis.
-However, the proprietary nature of ICPs poses a challenge to extracting the required semantics for evaluating the controller variables. In this paper, we propose a novel framework named SePanner to extract the semantics of controller variables from proprietary ICPs based on network traffic. Specifically, SePanner conducts the multi-state comparison to locate the semantic fields directly, then removes the interfering fields by the single-state comparison and filtering criteria. Our experiments demonstrate that SePanner can precisely extract the semantics of controller variables from proprietary ICPs, providing protection for PLCs while remaining compatible with various proprietary binary protocols.
+Semantic attacks have incurred increasing threats to Industrial Control Systems (ICSs), which manipulate targeted system modules by identifying the physical semantics of variables in Programmable Logic Controllers (PLCs) programs, i.e., the sensing/actuating modules represented by the variables. This is usually (and inefficiently) achieved via manual examination of system documents and long- term observation of system behavior. In this paper, we design ARES, a method that Automatically Reverse Engineers the Semantics of variables in PLC programs without requiring any domain knowledge. ARES is built on the fact that the Supervisory Control And Data Acquisition (SCADA) system monitors the behavior of PLC using a fixed mapping between the variables of program code and data log, and the data log variables are marked with physical semantics. By identifying the mapping between PLC code and SCADA data (i.e., the code-data mapping), ARES reverse engineers the physical semantics of program variables. ARES also sheds light on the preferred practices in implementing control rules that improve the resistance of PLC programs to semantic attacks. We have experimentally evaluated ARES and the recommended implementation practices on two ICS platforms.
